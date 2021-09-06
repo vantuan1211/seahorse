@@ -1,0 +1,75 @@
+h2.oni_ttl02{
+	color: white;
+	font-size: 25px;
+}
+
+h2.oni_ttl03{
+	color: white;
+	font-size: 20px;
+}
+
+h2.oni_ttl03b{
+	color: black;
+	font-size: 20px;
+}
+
+/* 3カラム */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+.col_3{
+	width: 100%;
+	display: flex;
+	display: -ms-flexbox; /* IE10 */
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap; /* IE10 */
+}
+.col_3 > div{
+	width: 33.3%;
+	padding: 10px;
+}
+.col_3 > div > div{
+	position: relative;
+	overflow: hidden
+}
+@media screen and (max-width: 960px) {
+	.col_3 > div{
+		width: 33.3%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.col_3 > div{
+		width: 33.33333%;
+	}
+}
+
+
+/* 2カラム */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+.col_2{
+	width: 100%;
+	display: flex;
+	display: -ms-flexbox; /* IE10 */
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap; /* IE10 */
+}
+.col_2 > div{
+	width: 50%;
+	padding: 10px;
+}
+.col_2 > div > div{
+	position: relative;
+	overflow: hidden
+}
+@media screen and (max-width: 960px) {
+	.col_2 > div{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.col_2 > div{
+		width: 50%;
+	}
+}
